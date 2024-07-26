@@ -1,0 +1,288 @@
+*{
+    border: 0;
+    margin: 0;
+}
+/*common shared style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.i-colour {
+    color: lightblue;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: cadetblue;
+    border: 0;
+    color: white;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+.btn-primary2 {
+    color: darkcyan;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border: 1px solid red;
+
+}
+.btn-primary:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-decoration: underline;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*NAV DESIGN*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-list :hover {
+    background-color: white;
+    color: red;
+    text-decoration: underline;
+
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/*header class*/
+.header-class {
+    background: #FFF8F3;
+    background-image: url(images/backg-removebg-preview.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
+
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: red;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner-des {
+    font-size: large;
+}
+
+/*Main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.about {
+    margin: 130px 150px;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+#what-i-do-des {
+    padding: 30px 150px;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 20px;
+
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: lightgrey;
+    box-shadow: 0px 5px 50px 0px rgba(255, 0, 0, 0.192);
+
+}
+
+.skill-des {
+    color: #757575;
+}
+
+/* resume starts */
+
+.resume-column-title1 , .resume-column-title2 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    border:5px solid rgba(184, 216, 3, 0.322);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 8px 0px 8px 2px rgba(184, 135, 11, 0.459); 
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.resume-container {
+  
+    gap: 50px;
+    padding: 30px;
+    border-radius: 5px;
+    background: whitesmoke;
+    box-shadow: 0px 5px 50px 0px rgba(4, 0, 255, 0.192);
+
+
+}
+
+.resume-item-institute {
+    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute,
+.resume-item-des {
+    color: #757575;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container hr {
+    margin: 30px;
+
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.download-cv :hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-decoration: underline;
+
+}
+/* resume finish */
+/* footer start */
+footer{
+    display: flex;
+    background-color: rgba(255, 228, 196, 0.404);
+    justify-content: space-around;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-column{
+    width: 50%;
+
+}
+
+.Contact input[type="text"], .Contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #474747a1;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.social-links{
+    text-align: center;
+}
+.social-links a {
+    margin-right: 25px;
+    
+}
+.section-des{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.last-step{
+    background: black;
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+.explore{
+    display: flex;
+    
+ 
+}
